@@ -1,0 +1,5 @@
+ESX.RegisterUsableItem(Config.itemname, function(source)
+    local xPlayer = ESX.GetPlayerFromId(source)
+    TriggerClientEvent('esx_plateremover:useRemover', source)
+    xPlayer.removeInventoryItem(licensePlateRemoverItem, 1)
+end)
