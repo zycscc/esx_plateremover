@@ -4,3 +4,5 @@
 ℹ Make sure you check the ***config.lua*** file and set it to your preferences.
 
 🌟 Also don't forget to **star** the repository, I really appreciate it if you do!
+
+🔔 You can change the notifications by replacing the lines 10/12 in ``client/main.lua``.
