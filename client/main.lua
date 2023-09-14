@@ -9,6 +9,6 @@ AddEventHandler('esx_plateremover:useRemover', function()
         SetVehicleNumberPlateText(vehicle, "")
         ESX.ShowNotification("License plate removed!")
     else
-        ESX.ShowNotification("You are not in a vehicle or you are not the driver.")
+        ESX.ShowNotification("You are not in a vehicle or you're not the driver.")
     end
 end)
